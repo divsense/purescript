@@ -1,3 +1,13 @@
 purescript:
   image: biscarch/purescript
 
+  volumes_from: 
+   - exchangevolume
+
+  labels:
+    mode: "composition"
+    owner: "divsense"
+    composition: "purescript"
+
+  command: :
+
