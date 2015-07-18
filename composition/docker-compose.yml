@@ -2,7 +2,7 @@ purescript:
   image: biscarch/purescript
 
   volumes_from: 
-   - exchangevolume
+   - initialcomposition_exchangevolume_1
 
   labels:
     mode: "composition"
