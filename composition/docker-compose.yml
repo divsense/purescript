@@ -9,5 +9,5 @@ purescript:
     owner: "divsense"
     composition: "purescript"
 
-  command: :
+  command: ls -la
 
