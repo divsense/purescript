@@ -9,5 +9,5 @@ purescript:
     owner: "divsense"
     composition: "purescript"
 
-  command: ls -la
+  command: psc --version
 
