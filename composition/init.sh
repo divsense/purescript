@@ -1,5 +1,4 @@
 #/usr/bin/env bash
 
-SOURCE="$1"
-
+docker-compose run --rm purescript cd "${ALIEN_INPUT}";pulp init
 

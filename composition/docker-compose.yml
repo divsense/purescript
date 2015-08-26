@@ -1,5 +1,5 @@
 purescript:
-  image: biscarch/purescript
+  build: .
 
   volumes_from: 
    - initialcomposition_exchangevolume_1
