@@ -1,4 +1,4 @@
 #/usr/bin/env bash
 
-docker-compose run --rm -w "${ALIEN_INPUT}" purescript pulp init 
+docker run --rm -w "${ALIEN_INPUT}" divsense_purescript pulp init
 
